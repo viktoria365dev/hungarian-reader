@@ -12,6 +12,7 @@ body {
 }
 
 .has-tooltip::after {
+  display: inline-block;
   content: attr(data-translation);
   position: absolute;
   bottom: 100%;
