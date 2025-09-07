@@ -1,24 +1,92 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
   <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-      charset="UTF-8"
-    />
-    <title>Hungarian reader</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hungarian Reader</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Gulyásleves</h1>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <h1>Hungarian Reader</h1>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gulyasleves.html">Gulyásleves</a></li>
+            <li><a href="another-text.html">Another Text</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <div id="huText">
-      A gulyásleves egy híres magyar étel. Ez egy finom, meleg leves, sok
-      hússal, burgonyával és zöldséggel. A fő összetevő a marhahús. A levesben
-      van hagyma, paprika, sárgarépa és kömény. A gulyásleveset gyakran eszik
-      ebédre. Télen nagyon jó, mert melegít. Sok magyar szereti ezt az ételt!
+    <!-- SIDEBAR + MAIN -->
+    <div class="layout">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="./gulyasleves.html">Gulyásleves</a></li>
+            <li><a href="./another-text.html">Another Text</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main-content">
+        <h2>Choose a Text</h2>
+        <section class="cards-container">
+          <a href="./gulyasleves.html" class="card">
+            <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
+            <div class="card-content">
+              <h3>Gulyásleves</h3>
+              <p>A classic Hungarian soup with meat, potatoes and paprika.</p>
+              <div class="difficulty">
+                <span class="level-text intermediate">Intermediate</span>
+                <div class="difficulty-bar intermediate">
+                  <div class="difficulty-fill"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="./gulyasleves.html" class="card">
+            <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
+            <div class="card-content">
+              <h3>Gulyásleves</h3>
+              <p>A classic Hungarian soup with meat, potatoes and paprika.</p>
+
+              <div class="difficulty">
+                <span class="level-text advanced">Advanced</span>
+                <div class="difficulty-bar advanced">
+                  <div class="difficulty-fill"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="./another-text.html" class="card">
+            <img src="images/another-text.jpg" alt="Another Text" />
+            <div class="card-content">
+              <h3>Another Text</h3>
+              <p>Short description of this text’s theme and context.</p>
+              <div class="difficulty">
+                <span class="level-text beginner">Beginner</span>
+
+                <div class="difficulty-bar beginner">
+                  <div class="difficulty-fill"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </section>
+      </main>
     </div>
 
-    <script src="scripts.js"></script>
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+      © 2025 Hungarian Reader. All rights reserved.
+    </footer>
   </body>
 </html>
