@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- HEADER + NAVBAR -->
+    <!-- HEADER -->
     <header class="site-header">
       <div class="header-inner">
-        <h1>Hungarian Reader</h1>
+        <h1>
+          <a href="index.html" class="site-title-link">Hungarian Reader</a>
+        </h1>
         <nav class="nav">
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="gulyasleves.html">Gulyásleves</a></li>
             <li><a href="another-text.html">Another Text</a></li>
+            <li>
+              <button id="openMyWords" class="my-words-btn">My Words</button>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <!-- Modal -->
+    <div id="myWordsModal" class="modal">
+      <div class="modal-content">
+        <span id="closeMyWords" class="close">&times;</span>
+        <h2>My Words</h2>
+        <ul id="myWordsList"></ul>
+        <button id="clearMyWords" class="clear-btn">Clear All</button>
+      </div>
+    </div>
 
     <!-- SIDEBAR + MAIN -->
     <div class="layout">

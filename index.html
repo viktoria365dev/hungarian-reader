@@ -10,16 +10,31 @@
     <!-- HEADER -->
     <header class="site-header">
       <div class="header-inner">
-        <h1>Hungarian Reader</h1>
+        <h1>
+          <a href="index.html" class="site-title-link">Hungarian Reader</a>
+        </h1>
         <nav class="nav">
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="gulyasleves.html">Gulyásleves</a></li>
             <li><a href="another-text.html">Another Text</a></li>
+            <li>
+              <button id="openMyWords" class="my-words-btn">My Words</button>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <!-- Modal -->
+    <div id="myWordsModal" class="modal">
+      <div class="modal-content">
+        <span id="closeMyWords" class="close">&times;</span>
+        <h2>My Words</h2>
+        <ul id="myWordsList"></ul>
+        <button id="clearMyWords" class="clear-btn">Clear All</button>
+      </div>
+    </div>
 
     <!-- SIDEBAR + MAIN -->
     <div class="layout">
@@ -36,8 +51,18 @@
       <!-- MAIN CONTENT -->
       <main class="main-content">
         <h2>Choose a Text</h2>
+        <div class="filter-bar">
+          <label for="levelFilter">Filter by level:</label>
+          <select id="levelFilter">
+            <option value="all">All</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
+
         <section class="cards-container">
-          <a href="./gulyasleves.html" class="card">
+          <a href="./gulyasleves.html" class="card" data-level="intermediate">
             <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
             <div class="card-content">
               <h3>Gulyásleves</h3>
@@ -51,7 +76,7 @@
             </div>
           </a>
 
-          <a href="./gulyasleves.html" class="card">
+          <a href="./gulyasleves.html" class="card" data-level="advanced">
             <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
             <div class="card-content">
               <h3>Gulyásleves</h3>
@@ -66,7 +91,7 @@
             </div>
           </a>
 
-          <a href="./another-text.html" class="card">
+          <a href="./another-text.html" class="card" data-level="beginner">
             <img src="images/another-text.jpg" alt="Another Text" />
             <div class="card-content">
               <h3>Another Text</h3>
@@ -88,5 +113,7 @@
     <footer class="site-footer">
       © 2025 Hungarian Reader. All rights reserved.
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
