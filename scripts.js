@@ -131,6 +131,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Show different tip text for touch vs non-touch devices
+  const tipEl = document.getElementById("interactionTip");
+  if (tipEl) {
+    const isTouch = window.matchMedia("(pointer: coarse)").matches;
+
+    if (isTouch) {
+      tipEl.textContent =
+        "Tip: Tap a word to see its translation and add it to My Words.";
+    } else {
+      tipEl.textContent =
+        "Tip: Hover over a word to see its translation, or click to add it to My Words.";
+    }
+  }
+
   /* ---------------------------
      2. DIFFICULTY FILTER LOGIC
   ---------------------------- */
