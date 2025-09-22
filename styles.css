@@ -415,6 +415,10 @@ select:focus-visible {
   color: #212529;
 }
 
+#huText p {
+  margin-bottom: 1rem;
+}
+
 .ko-fi-widget {
   margin-top: 1rem;
   text-align: center;
