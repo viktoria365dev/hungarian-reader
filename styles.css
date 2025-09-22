@@ -460,3 +460,7 @@ select:focus-visible {
 #markAsUnreadBtn {
   display: none;
 }
+
+#readConfirmation {
+  display: none;
+}
