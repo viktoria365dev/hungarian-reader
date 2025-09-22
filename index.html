@@ -33,13 +33,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="https://hungarian365.com">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gulyasleves.html">Gulyásleves</a>
+              <a class="nav-link" href="https://hungarian365.com/about.html">
+                About
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="another-text.html">Another Text</a>
+              <a class="nav-link active" href="index.html">Graded Reader</a>
             </li>
             <li class="nav-item">
               <button id="openMyWords" class="btn btn-link nav-link">
@@ -70,6 +72,21 @@
             <li><a href="./gulyasleves.html">Gulyásleves</a></li>
             <li><a href="./another-text.html">Another Text</a></li>
           </ul>
+          <div class="progress-tracker p-3 bg-light rounded shadow-sm">
+            <h5>Your Progress</h5>
+            <p id="progressSummary" class="small text-muted mb-2"></p>
+            <div class="progress" style="height: 20px">
+              <div
+                id="progressBar"
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 0%"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
         </nav>
       </aside>
 
@@ -86,66 +103,7 @@
           </select>
         </div>
 
-        <section class="cards-container">
-          <!-- Example card -->
-          <a href="./gulyasleves.html" class="card" data-level="intermediate">
-            <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
-            <div class="card-content">
-              <h3>Gulyásleves</h3>
-              <p>A classic Hungarian soup with meat, potatoes and paprika.</p>
-              <div class="difficulty">
-                <span class="level-text intermediate">Intermediate</span>
-                <div class="difficulty-bar intermediate">
-                  <div class="difficulty-fill"></div>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="./gulyasleves.html" class="card" data-level="advanced">
-            <img src="images/gulyasleves.jpg" alt="Gulyásleves" />
-            <div class="card-content">
-              <h3>Gulyásleves</h3>
-              <p>A classic Hungarian soup with meat, potatoes and paprika.</p>
-
-              <div class="difficulty">
-                <span class="level-text advanced">Advanced</span>
-                <div class="difficulty-bar advanced">
-                  <div class="difficulty-fill"></div>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="./another-text.html" class="card" data-level="beginner">
-            <img src="images/another-text.jpg" alt="Another Text" />
-            <div class="card-content">
-              <h3>Another Text</h3>
-              <p>Short description of this text’s theme and context.</p>
-              <div class="difficulty">
-                <span class="level-text beginner">Beginner</span>
-
-                <div class="difficulty-bar beginner">
-                  <div class="difficulty-fill"></div>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a href="./balaton.html" class="card" data-level="intermediate">
-            <img src="images/balaton.jpg" alt="Balaton" />
-            <div class="card-content">
-              <h3>A Balaton</h3>
-              <p>The "Hungarian sea"</p>
-              <div class="difficulty">
-                <span class="level-text intermediate">Intermediate</span>
-                <div class="difficulty-bar intermediate">
-                  <div class="difficulty-fill"></div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </section>
+        <section class="cards-container" id="cardsContainer"></section>
       </main>
     </div>
 

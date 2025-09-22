@@ -1,0 +1,26 @@
+{
+  "gulyasleves": [
+    {
+      "question": "Mi a fő összetevője a gulyáslevesnek?",
+      "options": ["Csirkehús", "Marhahús", "Hal", "Sertéshús"],
+      "answer": "Marhahús"
+    },
+    {
+      "question": "Mikor esznek gyakran gulyáslevest?",
+      "options": ["Reggelire", "Télen", "Nyáron", "Vacsorára"],
+      "answer": "Télen"
+    }
+  ],
+  "balaton": [
+    {
+      "question": "Miért hívják a Balatont 'magyar tengernek'?",
+      "options": ["Mert sós", "Mert nagy", "Mert mély", "Mert hideg"],
+      "answer": "Mert nagy"
+    },
+    {
+      "question": "Melyik város híres a nyári bulikról?",
+      "options": ["Tihany", "Siófok", "Balatonfüred", "Keszthely"],
+      "answer": "Siófok"
+    }
+  ]
+}

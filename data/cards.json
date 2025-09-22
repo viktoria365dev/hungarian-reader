@@ -1,0 +1,30 @@
+[
+  {
+    "id": "gulyasleves",
+    "title": "Gulyásleves",
+    "description": "A classic Hungarian soup with meat, potatoes and paprika.",
+    "image": "images/gulyasleves.jpg",
+    "level": "intermediate"
+  },
+  {
+    "id": "gulyasleves",
+    "title": "Gulyásleves",
+    "description": "A classic Hungarian soup with meat, potatoes and paprika.",
+    "image": "images/gulyasleves.jpg",
+    "level": "advanced"
+  },
+  {
+    "id": "another-text",
+    "title": "Another Text",
+    "description": "Short description of this text’s theme and context.",
+    "image": "images/another-text.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "balaton",
+    "title": "A Balaton",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/lake-balaton.jpg",
+    "level": "intermediate"
+  }
+]

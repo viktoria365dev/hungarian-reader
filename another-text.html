@@ -33,15 +33,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="https://hungarian365.com">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gulyasleves.html">Gulyásleves</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="another-text.html"
-                >Another Text</a
-              >
+              <a class="nav-link" href="index.html">Graded Reader</a>
             </li>
             <li class="nav-item">
               <button id="openMyWords" class="btn btn-link nav-link">
@@ -69,34 +64,60 @@
       <aside class="sidebar me-4">
         <nav>
           <ul class="list-unstyled mb-0">
-            <li><a href="gulyasleves.html">Gulyásleves</a></li>
-            <li><a href="another-text.html">Another Text</a></li>
+            <li><a href="./gulyasleves.html">Gulyásleves</a></li>
+            <li><a href="./another-text.html">Another Text</a></li>
           </ul>
+          <div class="progress-tracker p-3 bg-light rounded shadow-sm">
+            <h5>Your Progress</h5>
+            <p id="progressSummary" class="small text-muted mb-2"></p>
+            <div class="progress" style="height: 20px">
+              <div
+                id="progressBar"
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 0%"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
         </nav>
       </aside>
 
       <!-- Main Content -->
-      <main class="main-content flex-fill">
+      <main class="main-content flex-fill" data-text-id="gulyasleves">
         <h2 class="mb-3">Gulyásleves</h2>
         <p>
-          <a href="index.html" class="back-link text-success">&larr; Back</a>
+          <a href="index.html" class="back-link">&larr; Back</a>
         </p>
 
         <img
-          src="images/another-text.jpg"
+          src="images/gulyasleves.jpg"
           alt="Gulyásleves"
           class="page-image mb-4"
         />
 
         <p id="interactionTip" class="mt-3 text-muted small"></p>
 
-        <div id="huText" class="bg-white p-3 rounded shadow-sm">
-          A gulyásleves egy híres magyar étel. Ez egy finom, meleg leves, sok
-          hússal, burgonyával és zöldséggel. A fő összetevő a marhahús. A
-          levesben van hagyma, paprika, sárgarépa és kömény. A gulyásleveset
-          gyakran eszik ebédre. Télen nagyon jó, mert melegít. Sok magyar
-          szereti ezt az ételt!
-        </div>
+        <div id="huText" class="bg-white p-3 rounded shadow-sm"></div>
+
+        <section id="comprehension" class="mt-4">
+          <h3>Comprehension Questions</h3>
+          <div id="questionsContainer"></div>
+
+          <div class="text-confirmation mt-4">
+            <button id="markAsReadBtn" class="btn">
+              ✅ Mark this text as read
+            </button>
+            <button id="markAsUnreadBtn" class="btn btn-outline-secondary ms-2">
+              ❌ Mark as unread
+            </button>
+            <p id="readConfirmation" class="text-success mt-2">
+              Great job! This text is now marked as read.
+            </p>
+          </div>
+        </section>
       </main>
     </div>
 

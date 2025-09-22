@@ -53,7 +53,7 @@
 }
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   background: var(--clr-bg);
   color: var(--clr-text);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
@@ -148,7 +148,6 @@ body {
 }
 .main-content h2 {
   margin-bottom: 1rem;
-  font-size: 1.4rem;
   color: var(--brand-green);
 }
 .back-link {
@@ -300,7 +299,6 @@ body {
   gap: 0.5rem;
 }
 .filter-bar select {
-  padding: 0.4rem 0.6rem;
   border-radius: 4px;
   border: 1px solid #ccc;
 }
@@ -436,4 +434,29 @@ select:focus-visible {
   border-radius: 4px;
   font-size: 0.85rem;
   color: var(--clr-text-light);
+}
+
+#comprehension h3 {
+  margin-bottom: 1rem;
+  color: var(--brand-green);
+}
+
+.progress-bar {
+  transition: width 0.6s ease;
+}
+
+#markAsReadBtn {
+  background-color: var(--brand-green);
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#markAsReadBtn:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+#markAsUnreadBtn {
+  display: none;
 }
