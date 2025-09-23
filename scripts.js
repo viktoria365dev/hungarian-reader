@@ -345,8 +345,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       progressBar.textContent = `${percent}%`;
     }
 
-    if (percent === 100 && progressBadge) {
-      progressBadge.style.display = "block";
+    if (progressBadge) {
+      if (percent === 100) {
+        progressBadge.style.display = "block";
+      } else {
+        progressBadge.style.display = "none";
+      }
     }
   }
 
