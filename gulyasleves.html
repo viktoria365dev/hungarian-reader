@@ -36,12 +36,10 @@
               <a class="nav-link" href="https://hungarian365.com">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Graded Reader</a>
+              <a class="nav-link active" href="index.html">Graded Reader</a>
             </li>
             <li class="nav-item">
-              <button id="openMyWords" class="btn btn-link nav-link">
-                My Words
-              </button>
+              <a class="nav-link" href="about-hungarian-reader.html">About</a>
             </li>
           </ul>
         </div>
@@ -61,28 +59,37 @@
     <!-- Layout -->
     <div class="layout container flex-fill py-4">
       <!-- Sidebar -->
-      <aside class="sidebar me-4">
-        <nav>
-          <ul class="list-unstyled mb-0">
-            <li><a href="./gulyasleves.html">Gulyásleves</a></li>
-            <li><a href="./another-text.html">Another Text</a></li>
-          </ul>
-          <div class="progress-tracker p-3 bg-light rounded shadow-sm">
-            <h5>Your Progress</h5>
-            <p id="progressSummary" class="small text-muted mb-2"></p>
-            <div class="progress" style="height: 20px">
-              <div
-                id="progressBar"
-                class="progress-bar bg-success"
-                role="progressbar"
-                style="width: 0%"
-                aria-valuenow="0"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
+      <aside class="sidebar">
+        <!-- My Words Widget -->
+        <section class="sidebar-widget">
+          <h5>My Words</h5>
+          <button id="openMyWords" class="btn-mywords">
+            📘 View Saved Words
+          </button>
+        </section>
+
+        <!-- Progress Widget -->
+        <section class="sidebar-widget">
+          <h5>Your Progress</h5>
+          <p id="progressSummary" class="small text-muted"></p>
+          <div class="progress">
+            <div
+              id="progressBar"
+              class="progress-bar"
+              role="progressbar"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
           </div>
-        </nav>
+          <p
+            id="progressBadge"
+            class="text-success fw-bold mt-2"
+            style="display: none"
+          >
+            🎉 You’ve completed all texts!
+          </p>
+        </section>
       </aside>
 
       <!-- Main Content -->

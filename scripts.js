@@ -156,10 +156,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.body.addEventListener("click", (e) => {
     if (e.target.classList.contains("has-tooltip")) {
-      const word = e.target.textContent.trim();
+      const rawWord = e.target.textContent.trim();
+      const normalizedWord = rawWord.toLowerCase();
       const translation = e.target.dataset.translation;
-      if (!savedWords.some((item) => item.word === word)) {
-        savedWords.push({ word, translation });
+
+      if (
+        !savedWords.some((item) => item.word.toLowerCase() === normalizedWord)
+      ) {
+        savedWords.push({ word: rawWord, translation });
         localStorage.setItem("myWords", JSON.stringify(savedWords));
       }
     }
@@ -306,6 +310,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const progressEl = document.getElementById("progressSummary");
   const progressBar = document.getElementById("progressBar");
+  const progressBadge = document.getElementById("progressBadge");
 
   async function updateProgress() {
     const visited = JSON.parse(localStorage.getItem("confirmedReads")) || [];
@@ -338,6 +343,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       progressBar.style.width = `${percent}%`;
       progressBar.setAttribute("aria-valuenow", percent);
       progressBar.textContent = `${percent}%`;
+    }
+
+    if (percent === 100 && progressBadge) {
+      progressBadge.style.display = "block";
     }
   }
 

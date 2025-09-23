@@ -22,5 +22,17 @@
       "options": ["Tihany", "Siófok", "Balatonfüred", "Keszthely"],
       "answer": "Siófok"
     }
+  ],
+  "another-text": [
+    {
+      "question": "Hol esznek gyakran lángost az emberek?",
+      "options": ["Iskolában", "Strandon", "Kórházban", "Repülőn"],
+      "answer": "Strandon"
+    },
+    {
+      "question": "Melyik feltét nem szerepel a klasszikus lángoson?",
+      "options": ["Fokhagyma", "Tejföl", "Sajt", "Lekvár"],
+      "answer": "Lekvár"
+    }
   ]
 }

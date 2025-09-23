@@ -329,10 +329,23 @@ body {
   max-height: 80vh;
   overflow-y: auto;
 }
-.close {
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -1rem -1rem 0 -1rem;
+}
+
+.modal-header .close {
   align-self: flex-end;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
 }
 
 #myWordsList {
@@ -353,6 +366,7 @@ body {
 #myWordsList strong {
   font-weight: bold;
   color: var(--brand-green);
+  text-transform: lowercase;
 }
 .delete-word {
   background: none;
@@ -441,10 +455,6 @@ select:focus-visible {
   color: var(--brand-green);
 }
 
-.progress-bar {
-  transition: width 0.6s ease;
-}
-
 #markAsReadBtn {
   background-color: var(--brand-green);
   color: white;
@@ -463,4 +473,79 @@ select:focus-visible {
 
 #readConfirmation {
   display: none;
+}
+
+/* === My Words button in sidebar === */
+.sidebar {
+  flex: 0 0 220px;
+  background: var(--clr-panel);
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-widget {
+  background: var(--clr-panel);
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sidebar-widget h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--brand-green);
+}
+
+/* My Words button */
+.btn-mywords {
+  background-color: var(--brand-green);
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-mywords:hover {
+  background-color: var(--brand-accent);
+  color: var(--clr-text);
+}
+
+/* Progress bar */
+.progress {
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(--brand-green);
+  height: 100%;
+  width: 0%;
+  transition: width 0.6s ease;
+}
+
+.sidebar-widget h5::before {
+  content: "★";
+  color: var(--brand-accent);
+  margin-right: 0.25rem;
 }

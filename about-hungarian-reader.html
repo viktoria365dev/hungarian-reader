@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gulyásleves – Hungarian Reader</title>
+    <title>About Hungarian Reader</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -36,10 +36,12 @@
               <a class="nav-link" href="https://hungarian365.com">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Graded Reader</a>
+              <a class="nav-link" href="index.html">Graded Reader</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-hungarian-reader.html">About</a>
+              <a class="nav-link active" href="about-hungarian-reader.html"
+                >About</a
+              >
             </li>
           </ul>
         </div>
@@ -60,7 +62,6 @@
     <div class="layout container flex-fill py-4">
       <!-- Sidebar -->
       <aside class="sidebar">
-        <!-- My Words Widget -->
         <section class="sidebar-widget">
           <h5>My Words</h5>
           <button id="openMyWords" class="btn-mywords">
@@ -68,7 +69,6 @@
           </button>
         </section>
 
-        <!-- Progress Widget -->
         <section class="sidebar-widget">
           <h5>Your Progress</h5>
           <p id="progressSummary" class="small text-muted"></p>
@@ -93,38 +93,35 @@
       </aside>
 
       <!-- Main Content -->
-      <main class="main-content flex-fill" data-text-id="another-text">
-        <h2 class="mb-3">A lángos</h2>
+      <main class="main-content flex-fill">
+        <h2>About Hungarian Reader</h2>
         <p>
-          <a href="index.html" class="back-link">&larr; Back</a>
+          Hungarian Reader is designed to make learning Hungarian engaging,
+          accessible, and culturally rich. Whether you’re a beginner or brushing
+          up on your skills, you’ll find curated texts, interactive vocabulary
+          tools, and progress tracking to keep you motivated.
         </p>
 
-        <img
-          src="images/another-text.jpg"
-          alt="Another Text"
-          class="page-image mb-4"
-        />
+        <h3>Our Mission</h3>
+        <p>
+          We believe language learning should be immersive and enjoyable. By
+          combining authentic Hungarian content with learner-friendly features,
+          Hungarian Reader helps you build confidence and fluency step by step.
+        </p>
 
-        <p id="interactionTip" class="mt-3 text-muted small"></p>
+        <h3>Features</h3>
+        <ul>
+          <li>📚 Curated Hungarian texts with cultural context</li>
+          <li>💬 Instant word translations and “My Words” vocabulary list</li>
+          <li>📈 Progress tracking to celebrate your milestones</li>
+          <li>📝 Comprehension questions to deepen understanding</li>
+        </ul>
 
-        <div id="huText" class="bg-white p-3 rounded shadow-sm"></div>
-
-        <section id="comprehension" class="mt-4">
-          <h3>Comprehension Questions</h3>
-          <div id="questionsContainer"></div>
-
-          <div class="text-confirmation mt-4">
-            <button id="markAsReadBtn" class="btn">
-              ✅ Mark this text as read
-            </button>
-            <button id="markAsUnreadBtn" class="btn btn-outline-secondary ms-2">
-              ❌ Mark as unread
-            </button>
-            <p id="readConfirmation" class="text-success mt-2">
-              Great job! This text is now marked as read.
-            </p>
-          </div>
-        </section>
+        <h3>Who is it for?</h3>
+        <p>
+          Anyone interested in Hungarian language and culture — from complete
+          beginners to advanced learners looking for authentic reading practice.
+        </p>
       </main>
     </div>
 
