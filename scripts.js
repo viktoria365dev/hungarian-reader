@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const paragraphs = container.querySelectorAll("p");
     paragraphs.forEach((p) => {
       p.innerHTML = p.textContent.replace(
-        /\p{L}+(?=[\s.,!?;:"“”„]|$)/gu,
+        /[\p{L}-]+(?=[\s.,!?;:"“”„]|$)/gu,
         (word) => {
           const def = dict[word.toLowerCase()];
           if (!def) return word;

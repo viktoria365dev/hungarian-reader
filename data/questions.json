@@ -23,7 +23,7 @@
       "answer": "Siófok"
     }
   ],
-  "another-text": [
+  "langos": [
     {
       "question": "Hol esznek gyakran lángost az emberek?",
       "options": ["Iskolában", "Strandon", "Kórházban", "Repülőn"],
@@ -33,6 +33,166 @@
       "question": "Melyik feltét nem szerepel a klasszikus lángoson?",
       "options": ["Fokhagyma", "Tejföl", "Sajt", "Lekvár"],
       "answer": "Lekvár"
+    }
+  ],
+  "rubik-kocka": [
+    {
+      "question": "Mi volt a Rubik-kocka eredeti neve?",
+      "options": ["Varázskocka", "Bűvös kocka", "Csodakocka", "Logikai kocka"],
+      "answer": "Bűvös kocka"
+    },
+    {
+      "question": "Mit fejleszt a Rubik-kocka kirakása?",
+      "options": [
+        "Csak az ügyességet",
+        "Csak a gyorsaságot",
+        "Logikus gondolkodást, memóriát és türelmet",
+        "Csak a kézügyességet"
+      ],
+      "answer": "Logikus gondolkodást, memóriát és türelmet"
+    }
+  ],
+  "kolbasz": [
+    {
+      "question": "Miből készül általában a magyar kolbász?",
+      "options": ["Csirkehúsból", "Sertéshúsból", "Halból", "Kecskehúsból"],
+      "answer": "Sertéshúsból"
+    },
+    {
+      "question": "Mikor készítenek gyakran házi kolbászt a családok?",
+      "options": ["Nyáron", "Ősszel", "Télen, disznóvágáskor", "Húsvétkor"],
+      "answer": "Télen, disznóvágáskor"
+    }
+  ],
+  "turo-rudi": [
+    {
+      "question": "Miből készül a Túró Rudi belseje?",
+      "options": ["Csokoládéból", "Édes túróból", "Tejszínből", "Kekszből"],
+      "answer": "Édes túróból"
+    },
+    {
+      "question": "Melyik csomagolás vált a Túró Rudi jelképévé?",
+      "options": [
+        "Kék csíkos",
+        "Zöld pöttyös",
+        "Piros pöttyös",
+        "Sárga csíkos"
+      ],
+      "answer": "Piros pöttyös"
+    }
+  ],
+  "nyiregyhaza": [
+    {
+      "question": "Melyik híres látványosság található Nyíregyházán, a Sóstó részen?",
+      "options": ["Vidámpark", "Állatkert", "Kastély", "Repülőtér"],
+      "answer": "Állatkert"
+    },
+    {
+      "question": "Milyen különleges ételt lehet megkóstolni Nyíregyházán?",
+      "options": ["Szabolcsi gírosz", "Halászlé", "Lángos", "Töltött káposzta"],
+      "answer": "Szabolcsi gírosz"
+    }
+  ],
+  "eger": [
+    {
+      "question": "Melyik híres történelmi esemény kapcsolódik az Egri várhoz?",
+      "options": [
+        "A mohácsi csata",
+        "Az 1848-as forradalom",
+        "Az 1552-es török ostrom",
+        "A tatárjárás"
+      ],
+      "answer": "Az 1552-es török ostrom"
+    },
+    {
+      "question": "Mi Eger legismertebb bora?",
+      "options": [
+        "Tokaji aszú",
+        "Egri Bikavér",
+        "Villányi vörös",
+        "Szekszárdi kadarka"
+      ],
+      "answer": "Egri Bikavér"
+    }
+  ],
+  "kozlekedes": [
+    {
+      "question": "Hány metróvonal van Budapesten?",
+      "options": ["Kettő", "Három", "Négy", "Öt"],
+      "answer": "Négy"
+    },
+    {
+      "question": "Miért népszerű a bicikli a kisebb városokban és falvakban?",
+      "options": [
+        "Mert lassú",
+        "Mert drága",
+        "Mert környezetbarát és olcsó",
+        "Mert kevés van belőle"
+      ],
+      "answer": "Mert környezetbarát és olcsó"
+    }
+  ],
+  "c-vitamin": [
+    {
+      "question": "Melyik magyar tudós fedezte fel a C-vitamint paprikából?",
+      "options": [
+        "Jedlik Ányos",
+        "Szent-Györgyi Albert",
+        "Gárdonyi Géza",
+        "Semmelweis Ignác"
+      ],
+      "answer": "Szent-Györgyi Albert"
+    },
+    {
+      "question": "Miért kell minden nap C-vitamint fogyasztani?",
+      "options": [
+        "Mert a test gyorsan kiüríti",
+        "Mert a test sokáig tárolja",
+        "Mert csak télen van rá szükség",
+        "Mert nem oldódik vízben"
+      ],
+      "answer": "Mert a test gyorsan kiüríti"
+    }
+  ],
+  "magyarok-reggeli": [
+    {
+      "question": "Melyik étel tartozhat a magyar reggelihez?",
+      "options": ["Pizza", "Rántotta", "Hamburger", "Palacsinta"],
+      "answer": "Rántotta"
+    },
+    {
+      "question": "Mit isznak gyakran a felnőttek reggel Magyarországon?",
+      "options": ["Kávét", "Kólát", "Sört", "Tejet"],
+      "answer": "Kávét"
+    }
+  ],
+  "debrecen": [
+    {
+      "question": "Mi Debrecen híres temploma?",
+      "options": [
+        "Szent István Bazilika",
+        "Nagytemplom",
+        "Minorita templom",
+        "Mátyás-templom"
+      ],
+      "answer": "Nagytemplom"
+    },
+    {
+      "question": "Mikor rendezik a híres virágkarnevált Debrecenben?",
+      "options": ["Májusban", "Júniusban", "Augusztusban", "Szeptemberben"],
+      "answer": "Augusztusban"
+    }
+  ],
+  "magyar-kutya": [
+    {
+      "question": "Melyik magyar kutyafajta híres a zsinóros szőréről?",
+      "options": ["Kuvasz", "Puli", "Vizsla", "Agár"],
+      "answer": "Puli"
+    },
+    {
+      "question": "Melyik magyar kutyafajtát tartják kiváló vadászkutyának?",
+      "options": ["Komondor", "Kuvasz", "Vizsla", "Agár"],
+      "answer": "Vizsla"
     }
   ]
 }

@@ -7,10 +7,10 @@
     "level": "advanced"
   },
   {
-    "id": "another-text",
-    "title": "Another Text",
+    "id": "langos",
+    "title": "A lángos",
     "description": "Short description of this text’s theme and context.",
-    "image": "images/another-text.jpg",
+    "image": "images/langos.jpg",
     "level": "beginner"
   },
   {
@@ -19,5 +19,75 @@
     "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
     "image": "images/lake-balaton.jpg",
     "level": "intermediate"
+  },
+  {
+    "id": "rubik-kocka",
+    "title": "A Rubik-kocka",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/rubik.jpg",
+    "level": "advanced"
+  },
+  {
+    "id": "kolbasz",
+    "title": "A magyar kolbász",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/kolbasz.jpg",
+    "level": "advanced"
+  },
+  {
+    "id": "turo-rudi",
+    "title": "A Túró Rudi",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/turo-rudi.jpg",
+    "level": "intermediate"
+  },
+  {
+    "id": "nyiregyhaza",
+    "title": "Nyíregyháza",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/nyiregyhaza.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "eger",
+    "title": "Eger",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/eger.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "kozlekedes",
+    "title": "A magyar közlekedés",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/kozlekedes.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "c-vitamin",
+    "title": "A C-vitamin",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/c-vitamin.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "magyarok-reggeli",
+    "title": "Mit esznek a magyarok reggelire?",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/magyarok-reggeli.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "debrecen",
+    "title": "Debrecen",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/debrecen.jpg",
+    "level": "beginner"
+  },
+  {
+    "id": "magyar-kutya",
+    "title": "Magyar kutyafajták",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/magyar-kutya.jpg",
+    "level": "advanced"
   }
 ]

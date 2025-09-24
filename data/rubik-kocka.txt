@@ -1,0 +1,11 @@
+A Rubik-kocka a világ egyik legismertebb logikai játéka, és egyben a legismertebb magyar találmány is. A kockát Rubik Ernő, magyar építész és egyetemi tanár találta fel 1974-ben. Eredetileg nem játéknak szánta, hanem oktatási eszköznek: a háromdimenziós gondolkodás szemléltetésére akarta használni. Az eredeti neve ezért „Bűvös kocka” volt. A játék hamar népszerű lett Magyarországon, majd a nyolcvanas években meghódította az egész világot. 1980-ban már több millió darabot adtak el belőle. A Rubik-kocka igazi nemzetközi szenzációvá vált.
+
+A klasszikus Rubik-kocka hat oldallal rendelkezik. Minden oldalon kilenc kis négyzet található, összesen tehát ötvennégy színes mező. A színek: piros, kék, zöld, sárga, fehér és narancssárga. A játék célja, hogy a kockát forgatva minden oldal egyszínű legyen.
+
+Ez elsőre egyszerűnek tűnik, de valójában nagyon nehéz. A kocka több mint 43 trillió (43 000 000 000 000 000 000) különböző állásba forgatható, de ezek közül csak egy a helyes forma. A Rubik-kocka nemcsak ügyességet, hanem logikus gondolkodást és türelmet is igényel. A játékosnak meg kell tanulnia bizonyos algoritmusokat, amelyek segítségével a színek a megfelelő helyre kerülnek. Sokan először véletlenszerűen próbálkoznak, de hamar rájönnek, hogy rendszer nélkül nem lehet kirakni. Ezért a kocka tanulásra is kiváló: fejleszti a problémamegoldó képességet, a memóriát és a koncentrációt.
+
+A Rubik-kocka körül mára külön sportág alakult ki, amit speedcubingnak neveznek. A versenyzők célja, hogy a lehető leggyorsabban rakják ki a kockát. A világrekord néhány másodperc, és folyamatosan javul. Vannak vakon kirakó versenyek, ahol a játékos először megnézi a kockát, majd bekötött szemmel oldja meg.
+
+A Rubik-kocka nemcsak játék, hanem kulturális szimbólum is. Magyarország egyik legismertebb exportcikke, amelyet a világ minden táján ismernek. A kocka megjelenik filmekben, reklámokban, sőt művészeti alkotásokban is. A Rubik-kocka egyszerre egyszerű és bonyolult. Kicsi, könnyen hordozható, mégis végtelen kihívást rejt. Minden korosztály játszhat vele: gyerekek, felnőttek, idősek. Van, aki szórakozásból forgatja, mások komoly versenyzőként gyakorolnak.
+
+A kocka megtanít arra, hogy a türelem és a kitartás meghozza a gyümölcsét. Ezért nemcsak játék, hanem életfilozófia is lehet: mindig van megoldás, csak meg kell találni a megfelelő lépéseket.
