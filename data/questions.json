@@ -216,5 +216,22 @@
       ],
       "answer": "Merev és németes, hiányzik belőle a lágyság"
     }
+  ],
+  "budapest": [
+    {
+      "question": "Melyik híres budapesti híd köti össze Budát és Pestet, és az egyik legrégebbi a városban?",
+      "options": ["Margit híd", "Szabadság híd", "Lánchíd", "Erzsébet híd"],
+      "answer": "Lánchíd"
+    },
+    {
+      "question": "Melyik budapesti látnivalóból nyílik gyönyörű kilátás a városra?",
+      "options": [
+        "Halászbástya",
+        "Országház",
+        "Hősök tere",
+        "Szent István-bazilika"
+      ],
+      "answer": "Halászbástya"
+    }
   ]
 }

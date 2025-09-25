@@ -96,5 +96,12 @@
     "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
     "image": "images/sisi.jpg",
     "level": "advanced"
+  },
+  {
+    "id": "budapest",
+    "title": "Budapest",
+    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "image": "images/budapest.jpg",
+    "level": "intermediate"
   }
 ]
