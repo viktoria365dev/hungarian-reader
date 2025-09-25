@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const paragraphs = container.querySelectorAll("p");
     paragraphs.forEach((p) => {
       p.innerHTML = p.textContent.replace(
-        /[\p{L}-]+(?=[\s.,!?;:"“”„]|$)/gu,
+        /[\p{L}-]+(?=[\s.,!?;:"“”„()]|$)/gu,
         (word) => {
           const def = dict[word.toLowerCase()];
           if (!def) return word;
@@ -138,6 +138,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         savedWords.splice(index, 1);
         localStorage.setItem("myWords", JSON.stringify(savedWords));
         renderMyWords();
+        updateProgress();
       });
       li.appendChild(textSpan);
       li.appendChild(delBtn);
@@ -151,6 +152,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       savedWords = [];
       localStorage.removeItem("myWords");
       renderMyWords();
+      updateProgress();
     });
   }
 
@@ -165,6 +167,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       ) {
         savedWords.push({ word: rawWord, translation });
         localStorage.setItem("myWords", JSON.stringify(savedWords));
+        updateProgress();
       }
     }
   });
@@ -355,4 +358,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   await updateProgress();
+});
+
+document.getElementById("toggleTooltips").addEventListener("click", () => {
+  document.querySelectorAll(".has-tooltip").forEach((el) => {
+    el.classList.toggle("no-underline");
+  });
 });

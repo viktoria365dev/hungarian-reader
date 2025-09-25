@@ -225,7 +225,6 @@ body {
 .has-tooltip {
   position: relative;
   cursor: help;
-
   text-decoration: underline dotted;
 }
 .has-tooltip::after {
@@ -548,4 +547,24 @@ select:focus-visible {
   content: "★";
   color: var(--brand-accent);
   margin-right: 0.25rem;
+}
+
+.btn-toggle-tooltips {
+  background-color: var(--brand-accent);
+  color: #333;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-toggle-tooltips:hover {
+  opacity: 0.85;
+}
+
+.has-tooltip.no-underline {
+  text-decoration: none;
 }

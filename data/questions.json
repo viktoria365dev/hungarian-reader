@@ -194,5 +194,27 @@
       "options": ["Komondor", "Kuvasz", "Vizsla", "Agár"],
       "answer": "Vizsla"
     }
+  ],
+  "sisi": [
+    {
+      "question": "Miért tanult Sisi magyarul?",
+      "options": [
+        "Mert a császár kérte rá",
+        "Hogy szabadabbnak érezze magát",
+        "Mert nem szerette a német nyelvet",
+        "Hogy tanár legyen Magyarországon"
+      ],
+      "answer": "Hogy szabadabbnak érezze magát"
+    },
+    {
+      "question": "Mit mondott Falk Miksa Sisi magyar stílusáról?",
+      "options": [
+        "Tökéletes és természetes",
+        "Túl érzelmes és túl magyaros",
+        "Merev és németes, hiányzik belőle a lágyság",
+        "Modern és könnyen érthető"
+      ],
+      "answer": "Merev és németes, hiányzik belőle a lágyság"
+    }
   ]
 }
