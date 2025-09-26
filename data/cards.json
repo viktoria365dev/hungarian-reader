@@ -7,101 +7,101 @@
     "level": "intermediate"
   },
   {
-    "id": "langos",
-    "title": "A lángos",
-    "description": "Short description of this text’s theme and context.",
-    "image": "images/langos.jpg",
-    "level": "beginner"
-  },
-  {
     "id": "balaton",
     "title": "A Balaton",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "The 'Hungarian sea', the largest lake in Central Europe.",
     "image": "images/lake-balaton.jpg",
     "level": "intermediate"
   },
   {
-    "id": "rubik-kocka",
-    "title": "A Rubik-kocka",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
-    "image": "images/rubik.jpg",
-    "level": "advanced"
+    "id": "kozlekedes",
+    "title": "A magyar közlekedés",
+    "description": "An overview of Hungary’s transport system.",
+    "image": "images/kozlekedes.jpg",
+    "level": "beginner"
   },
   {
     "id": "kolbasz",
     "title": "A magyar kolbász",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "A traditional Hungarian sausage seasoned with paprika and garlic.",
     "image": "images/kolbasz.jpg",
     "level": "advanced"
   },
   {
     "id": "turo-rudi",
     "title": "A Túró Rudi",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "A sweet Hungarian snack made of chocolate-covered curd cheese.",
     "image": "images/turo-rudi.jpg",
     "level": "intermediate"
   },
   {
     "id": "nyiregyhaza",
     "title": "Nyíregyháza",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "A city in eastern Hungary known for its zoo and cultural life.",
     "image": "images/nyiregyhaza-varos.jpg",
     "level": "beginner"
   },
   {
     "id": "eger",
     "title": "Eger",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "A historic Hungarian town famous for its castle and red wine.",
     "image": "images/eger.jpg",
     "level": "beginner"
   },
   {
-    "id": "kozlekedes",
-    "title": "A magyar közlekedés",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
-    "image": "images/kozlekedes.jpg",
-    "level": "beginner"
+    "id": "rubik-kocka",
+    "title": "A Rubik-kocka",
+    "description": "The world-famous 3D puzzle invented by Hungarian professor Ernő Rubik.",
+    "image": "images/rubik.jpg",
+    "level": "advanced"
   },
   {
     "id": "c-vitamin",
     "title": "A C-vitamin",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "An essential vitamin discovered by Hungarian scientist Albert Szent-Györgyi.",
     "image": "images/c-vitamin.jpg",
     "level": "beginner"
   },
   {
     "id": "magyarok-reggeli",
     "title": "Mit esznek a magyarok reggelire?",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "What do Hungarians eat for breakfast?",
     "image": "images/magyarok-reggeli.jpg",
     "level": "beginner"
   },
   {
     "id": "debrecen",
     "title": "Debrecen",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "Hungary’s second largest city, known for its university and Great Reformed Church.",
     "image": "images/debrecen.jpg",
     "level": "beginner"
   },
   {
     "id": "magyar-kutya",
     "title": "Magyar kutyafajták",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "Traditional Hungarian dog breeds such as the Puli, Komondor and Vizsla.",
     "image": "images/magyar-kutya.jpg",
     "level": "advanced"
   },
   {
     "id": "sisi",
     "title": "Miért tanult Sisi magyarul?",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "The story of Empress Elisabeth of Austria and her deep connection to Hungary.",
     "image": "images/sisi.jpg",
     "level": "advanced"
   },
   {
     "id": "budapest",
     "title": "Budapest",
-    "description": "The \"Hungarian sea\". The largest lake in Central Europe.",
+    "description": "Hungary’s capital city, famous for the Danube, historic sights and thermal baths.",
     "image": "images/budapest.jpg",
     "level": "intermediate"
+  },
+  {
+    "id": "langos",
+    "title": "A lángos",
+    "description": "A deep-fried flatbread often eaten with sour cream and cheese.",
+    "image": "images/langos.jpg",
+    "level": "beginner"
   }
 ]

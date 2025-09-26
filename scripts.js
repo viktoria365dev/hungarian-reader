@@ -360,7 +360,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await updateProgress();
 });
 
-document.getElementById("toggleTooltips").addEventListener("click", () => {
+document.getElementById("toggleTooltips")?.addEventListener("click", () => {
   document.querySelectorAll(".has-tooltip").forEach((el) => {
     el.classList.toggle("no-underline");
   });

@@ -1,19 +1,24 @@
 {
   "gulyasleves": [
     {
-      "question": "Mi a fő összetevője a gulyáslevesnek?",
-      "options": ["Csirkehús", "Marhahús", "Hal", "Sertéshús"],
-      "answer": "Marhahús"
+      "question": "Kihez köthető a gulyás eredete?",
+      "options": [
+        "Városi szakácsok",
+        "Pásztorok az Alföldön",
+        "Udvari séfek",
+        "Halászok a Tiszán"
+      ],
+      "answer": "Pásztorok az Alföldön"
     },
     {
-      "question": "Mikor esznek gyakran gulyáslevest?",
-      "options": ["Reggelire", "Télen", "Nyáron", "Vacsorára"],
-      "answer": "Télen"
+      "question": "Mi adja a gulyásleves jellegzetes piros színét?",
+      "options": ["Paradicsom", "Cékla", "Magyar őrölt paprika", "Répapüré"],
+      "answer": "Magyar őrölt paprika"
     }
   ],
   "balaton": [
     {
-      "question": "Miért hívják a Balatont 'magyar tengernek'?",
+      "question": "Miért hívják a Balatont a 'magyar tengernek'?",
       "options": ["Mert sós", "Mert nagy", "Mert mély", "Mert hideg"],
       "answer": "Mert nagy"
     },
@@ -59,9 +64,14 @@
       "answer": "Sertéshúsból"
     },
     {
-      "question": "Mikor készítenek gyakran házi kolbászt a családok?",
-      "options": ["Nyáron", "Ősszel", "Télen, disznóvágáskor", "Húsvétkor"],
-      "answer": "Télen, disznóvágáskor"
+      "question": "Mivel szokták gyakran enni a kolbászt?",
+      "options": [
+        "Kenyérrel és mustárral",
+        "Cukorral és lekvárral",
+        "Tejjel és mézzel",
+        "Csak magában"
+      ],
+      "answer": "Kenyérrel és mustárral"
     }
   ],
   "turo-rudi": [
@@ -83,7 +93,7 @@
   ],
   "nyiregyhaza": [
     {
-      "question": "Melyik híres látványosság található Nyíregyházán, a Sóstó részen?",
+      "question": "Melyik híres látványosság található Nyíregyházán?",
       "options": ["Vidámpark", "Állatkert", "Kastély", "Repülőtér"],
       "answer": "Állatkert"
     },
@@ -144,21 +154,21 @@
       "answer": "Szent-Györgyi Albert"
     },
     {
-      "question": "Miért kell minden nap C-vitamint fogyasztani?",
+      "question": "Melyik élelmiszer jó C-vitamin-forrás a felsoroltak közül?",
       "options": [
-        "Mert a test gyorsan kiüríti",
-        "Mert a test sokáig tárolja",
-        "Mert csak télen van rá szükség",
-        "Mert nem oldódik vízben"
+        "Paprika és kivi",
+        "Fehér kenyér és vaj",
+        "Marhahús és sajt",
+        "Cukor és só"
       ],
-      "answer": "Mert a test gyorsan kiüríti"
+      "answer": "Paprika és kivi"
     }
   ],
   "magyarok-reggeli": [
     {
-      "question": "Melyik étel tartozhat a magyar reggelihez?",
-      "options": ["Pizza", "Rántotta", "Hamburger", "Palacsinta"],
-      "answer": "Rántotta"
+      "question": "Melyik péksüteményt említi a szöveg a reggelik között?",
+      "options": ["Kifli", "Bagel", "Croissant", "Tortilla"],
+      "answer": "Kifli"
     },
     {
       "question": "Mit isznak gyakran a felnőttek reggel Magyarországon?",
@@ -168,7 +178,7 @@
   ],
   "debrecen": [
     {
-      "question": "Mi Debrecen híres temploma?",
+      "question": "Melyik Debrecen híres temploma?",
       "options": [
         "Szent István Bazilika",
         "Nagytemplom",
@@ -219,7 +229,7 @@
   ],
   "budapest": [
     {
-      "question": "Melyik híres budapesti híd köti össze Budát és Pestet, és az egyik legrégebbi a városban?",
+      "question": "Melyik volt az első állandó híd, ami összekötötte Budát és Pestet?",
       "options": ["Margit híd", "Szabadság híd", "Lánchíd", "Erzsébet híd"],
       "answer": "Lánchíd"
     },
